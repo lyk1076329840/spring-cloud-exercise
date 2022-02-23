@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  ncepu.lykkk.exercise.config.HelloServiceAutoConfiguration,\
+  ncepu.lykkk.exercise.config.MyLogAutoConfiguration
