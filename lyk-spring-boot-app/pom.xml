@@ -24,7 +24,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
-    <spring-boot-starter-web.version>2.6.1</spring-boot-starter-web.version>
+<!--    <spring-boot-starter-web.version>2.6.1</spring-boot-starter-web.version>-->
   </properties>
 
   <dependencies>
@@ -39,7 +39,7 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
-      <version>${spring-boot-starter-web.version}</version>
+<!--      <version>${spring-boot-starter-web.version}</version>-->
     </dependency>
 
 <!--    <dependency>-->
