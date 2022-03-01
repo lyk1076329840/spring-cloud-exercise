@@ -22,7 +22,7 @@
     <artifactId>lyk-spring-cloud-parent</artifactId>
     <groupId>ncepu.lykkk.exercise</groupId>
     <version>1.0-SNAPSHOT</version>
-    <relativePath>../lyk-spring-cloud-parent</relativePath>
+    <relativePath>../lyk-spring-cloud-parent/pom.xml</relativePath>
   </parent>
 
   <properties>
