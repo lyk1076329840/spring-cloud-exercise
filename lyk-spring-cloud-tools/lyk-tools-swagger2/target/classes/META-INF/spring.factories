@@ -1,2 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  ncepu.lykkk.exercise.swagger2.Swagger2AutoConfiguration
