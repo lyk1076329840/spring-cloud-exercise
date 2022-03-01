@@ -8,13 +8,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="lyk-tools-validator" />
-        <module name="lyk-spring-cloud-parent" />
-        <module name="lyk-tools-swagger2" />
         <module name="lyk-spring-cloud-app-swagger" />
+        <module name="lyk-tools-swagger2" />
+        <module name="lyk-spring-cloud-validator" />
+        <module name="lyk-spring-cloud-jwt-demo" />
+        <module name="lyk-tools-jwt" />
         <module name="lyk-spring-boot-app" />
         <module name="lyk-spring-boot-starter" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lyk-spring-cloud-app-validator" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -22,6 +27,8 @@
       <module name="lyk-spring-boot-starter" options="-parameters" />
       <module name="lyk-spring-cloud-app-swagger" options="-parameters" />
       <module name="lyk-spring-cloud-parent" options="-parameters" />
+      <module name="lyk-spring-cloud-validator" options="-parameters" />
+      <module name="lyk-tools-jwt" options="-parameters" />
       <module name="lyk-tools-swagger2" options="-parameters" />
       <module name="lyk-tools-validator" options="-parameters" />
     </option>

@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>ncepu.lykkk.exercise</groupId>
-  <artifactId>lyk-spring-cloud-app-swagger</artifactId>
+  <artifactId>lyk-spring-cloud-validator</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>lyk-spring-cloud-app-swagger</name>
+  <name>lyk-spring-cloud-validator</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -34,22 +34,22 @@
     </dependency>
 
     <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.hibernate.validator</groupId>
+      <artifactId>hibernate-validator</artifactId>
+      <version>6.0.20.Final</version>
+    </dependency>
+
+    <dependency>
       <groupId>ncepu.lykkk.exercise</groupId>
       <artifactId>lyk-tools-swagger2</artifactId>
       <version>1.0-SNAPSHOT</version>
     </dependency>
 
-    <dependency>
-      <groupId>ncepu.lykkk.exercise</groupId>
-      <artifactId>lyk-tools-validator</artifactId>
-      <version>1.0-SNAPSHOT</version>
-    </dependency>
-
-    <dependency>
-      <groupId>org.projectlombok</groupId>
-      <artifactId>lombok</artifactId>
-    </dependency>
   </dependencies>
-
 
 </project>
