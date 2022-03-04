@@ -12,6 +12,8 @@
     <module>lyk-tools-swagger2</module>
     <module>lyk-tools-validator</module>
     <module>lyk-tools-jwt</module>
+    <module>lyk-tools-core</module>
+    <module>lyk-tools-common</module>
   </modules>
 
   <name>lyk-spring-cloud-tools</name>

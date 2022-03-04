@@ -149,6 +149,13 @@
         <artifactId>knife4j-spring-ui</artifactId>
         <version>${knife4j.version}</version>
       </dependency>
+
+      <dependency>
+        <groupId>ncepu.lykkk.exercise</groupId>
+        <artifactId>lyk-tools-core</artifactId>
+        <version>1.0-SNAPSHOT</version>
+      </dependency>
+
     </dependencies>
   </dependencyManagement>
 
