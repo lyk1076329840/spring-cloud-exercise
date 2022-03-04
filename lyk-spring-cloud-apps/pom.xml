@@ -12,6 +12,7 @@
     <module>lyk-spring-cloud-app-swagger</module>
       <module>lyk-spring-cloud-validator</module>
       <module>lyk-spring-cloud-jwt-demo</module>
+      <module>lyk-spring-cloud-dozer-demo</module>
   </modules>
 
   <name>lyk-spring-cloud-apps</name>

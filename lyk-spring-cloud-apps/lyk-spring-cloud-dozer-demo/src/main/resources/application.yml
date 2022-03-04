@@ -1,0 +1,7 @@
+server:
+  port: 8080
+
+dozer:
+  mappingFiles:
+    - classpath:dozer/global.dozer.xml
+    - classpath:dozer/biz.dozer.xml
