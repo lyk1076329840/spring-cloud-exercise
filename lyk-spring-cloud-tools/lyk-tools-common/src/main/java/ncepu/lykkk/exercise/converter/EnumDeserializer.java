@@ -60,7 +60,8 @@ public class EnumDeserializer extends StdDeserializer<Enum<?>> {
             Method method = fieldType.getMethod(ALL_ENUM_STRING_CONVERT_METHOD, String.class);
             return (Enum<?>) method.invoke(null, value);
         } catch (NoSuchMethodException | SecurityException | IllegalAccessException | InvocationTargetException e) {
-            log.warn("解析枚举失败", e);
+//            log.warn("解析枚举失败", e);
+            e.printStackTrace();
             return null;
         }
     }

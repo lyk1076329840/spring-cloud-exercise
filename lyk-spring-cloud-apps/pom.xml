@@ -13,6 +13,7 @@
       <module>lyk-spring-cloud-validator</module>
       <module>lyk-spring-cloud-jwt-demo</module>
       <module>lyk-spring-cloud-dozer-demo</module>
+      <module>lyk-spring-cloud-exception-handler</module>
   </modules>
 
   <name>lyk-spring-cloud-apps</name>
