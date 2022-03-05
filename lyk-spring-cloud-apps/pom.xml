@@ -15,6 +15,7 @@
       <module>lyk-spring-cloud-dozer-demo</module>
       <module>lyk-spring-cloud-exception-handler</module>
       <module>lyk-spring-cloud-argument-demo</module>
+      <module>lyk-spring-cloud-user</module>
   </modules>
 
   <name>lyk-spring-cloud-apps</name>

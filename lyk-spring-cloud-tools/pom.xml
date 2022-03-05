@@ -15,6 +15,7 @@
     <module>lyk-tools-core</module>
     <module>lyk-tools-common</module>
     <module>lyk-tools-dozer</module>
+      <module>lyk-tools-user</module>
   </modules>
 
   <name>lyk-spring-cloud-tools</name>
