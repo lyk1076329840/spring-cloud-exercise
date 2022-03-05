@@ -44,6 +44,13 @@
       <artifactId>lyk-tools-common</artifactId>
       <version>1.0-SNAPSHOT</version>
     </dependency>
+
+    <!--mysql 依赖-->
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.27</version>
+    </dependency>
   </dependencies>
 
   <build>

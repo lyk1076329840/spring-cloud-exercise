@@ -25,7 +25,7 @@
     <groupId>ncepu.lykkk.exercise</groupId>
     <artifactId>lyk-spring-cloud-tools</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <relativePath/>
+    <relativePath>../pom.xml</relativePath>
   </parent>
 
   <packaging>jar</packaging>
@@ -73,11 +73,18 @@
     <dependency>
       <groupId>ncepu.lykkk.exercise</groupId>
       <artifactId>lyk-tools-core</artifactId>
+      <version>1.0-SNAPSHOT</version>
     </dependency>
 
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-compiler-plugin</artifactId>
+      <version>3.8.1</version>
     </dependency>
   </dependencies>
 

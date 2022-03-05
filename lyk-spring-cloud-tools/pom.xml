@@ -38,4 +38,29 @@
 
   </dependencies>
 
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>ncepu.lykkk.exercise</groupId>
+        <artifactId>lyk-tools-core</artifactId>
+        <version>1.0-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+        <groupId>ncepu.lykkk.exercise</groupId>
+        <artifactId>lyk-tools-swagger2</artifactId>
+        <version>1.0-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+        <groupId>ncepu.lykkk.exercise</groupId>
+        <artifactId>lyk-tools-dozer</artifactId>
+        <version>1.0-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+        <groupId>ncepu.lykkk.exercise</groupId>
+        <artifactId>lyk-tools-validator</artifactId>
+        <version>1.0-SNAPSHOT</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
 </project>
