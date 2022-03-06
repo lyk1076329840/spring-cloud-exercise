@@ -16,6 +16,8 @@
     <module>lyk-tools-common</module>
     <module>lyk-tools-dozer</module>
       <module>lyk-tools-user</module>
+    <module>lyk-tools-databases</module>
+      <module>lyk-tools-j2cache</module>
   </modules>
 
   <name>lyk-spring-cloud-tools</name>
