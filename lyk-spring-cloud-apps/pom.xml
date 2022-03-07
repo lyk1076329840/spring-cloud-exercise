@@ -16,6 +16,7 @@
       <module>lyk-spring-cloud-exception-handler</module>
       <module>lyk-spring-cloud-argument-demo</module>
       <module>lyk-spring-cloud-user</module>
+      <module>lyk-spring-cloud-j2cache-demo</module>
   </modules>
 
   <name>lyk-spring-cloud-apps</name>
