@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    ncepu.lykkk.exercise.log.LogAutoConfiguration
+org.springframework.context.ApplicationContextInitializer=\
+    ncepu.lykkk.exercise.log.init.ApplicationLoggerInitializer

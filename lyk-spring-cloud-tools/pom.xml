@@ -18,6 +18,7 @@
       <module>lyk-tools-user</module>
     <module>lyk-tools-databases</module>
       <module>lyk-tools-j2cache</module>
+      <module>lyk-tools-log</module>
   </modules>
 
   <name>lyk-spring-cloud-tools</name>
