@@ -6,6 +6,7 @@ import ncepu.lykkk.exercise.dozer.DozerUtils;
 import ncepu.lykkk.exercise.dto.UserDTO;
 import ncepu.lykkk.exercise.entity.User;
 import ncepu.lykkk.exercise.entity.UserEntity;
+import ncepu.lykkk.exercise.log.annotation.SysLog;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
@@ -34,6 +35,7 @@ public class UserController {
      */
     @DeleteMapping("/delete")
     @ApiOperation(value = "删除操作")
+    @SysLog("删除操作")
     public String delete(@NotNull(message = "id不能为空") Integer id){
         return "delete success";
     }

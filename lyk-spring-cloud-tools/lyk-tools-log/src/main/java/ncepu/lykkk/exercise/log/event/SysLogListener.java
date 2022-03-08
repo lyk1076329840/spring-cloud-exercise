@@ -27,6 +27,7 @@ public class SysLogListener {
     public void saveSysLog(SysLogEvent event) {
         OptLogDTO optLog = (OptLogDTO) event.getSource();
         //BaseContextHandler.setDatabase(database);
+        // 这里可以储存到数据库中，但是由于不同的系统对于操作日志的处理方式是不同的 所以为了实现通用日志功能 仅实现了日志的收集
         consumer.accept(optLog);
     }
 }

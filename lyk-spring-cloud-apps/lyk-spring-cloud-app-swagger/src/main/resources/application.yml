@@ -12,11 +12,33 @@ lyk:
       email: 1076329840@qq.com
       name: 林玉坤1111
       url: localhost:8080/doc.html
+  log:
+    enabled: true
+
+logging:
+  config: classpath:logback-spring.xml
 
 spring:
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://rm-2ze3144uzmez9wslj4o.mysql.rds.aliyuncs.com:3306/exam_helper?characterEncoding=UTF8&autoReconnect=true
+    username: lykkk
+    password: Lyk19981216
+
+# Mybatis-plus配置
+mybatis-plus:
+  #配置Mapper映射文件
+  mapper-locations: classpath*:/mapper/*Mapper.xml
+  # 配置MyBatis数据返回类型别名（默认别名是类名）
+  type-aliases-package: ncepu.lykkk.exercise.entity
+  configuration:
+    # 自动驼峰命名
+    map-underscore-to-camel-case: false
 
 
 dozer:
