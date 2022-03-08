@@ -17,6 +17,7 @@
       <module>lyk-spring-cloud-argument-demo</module>
       <module>lyk-spring-cloud-user</module>
       <module>lyk-spring-cloud-j2cache-demo</module>
+      <module>lyk-spring-cloud-logback</module>
   </modules>
 
   <name>lyk-spring-cloud-apps</name>
