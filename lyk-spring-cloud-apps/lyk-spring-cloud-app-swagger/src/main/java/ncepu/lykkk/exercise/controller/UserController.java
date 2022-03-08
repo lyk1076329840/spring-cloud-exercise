@@ -2,6 +2,7 @@ package ncepu.lykkk.exercise.controller;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import ncepu.lykkk.exercise.base.R;
 import ncepu.lykkk.exercise.dozer.DozerUtils;
 import ncepu.lykkk.exercise.dto.UserDTO;
 import ncepu.lykkk.exercise.entity.User;
@@ -36,8 +37,8 @@ public class UserController {
     @DeleteMapping("/delete")
     @ApiOperation(value = "删除操作")
     @SysLog("删除操作")
-    public String delete(@NotNull(message = "id不能为空") Integer id){
-        return "delete success";
+    public R delete(@NotNull(message = "id不能为空") Integer id){
+        return R.success();
     }
 
     /**
@@ -47,8 +48,9 @@ public class UserController {
      */
     @PostMapping("/save")
     @ApiOperation(value = "保存操作")
-    public String save(@Validated User user){
-        return "save success";
+    @SysLog("保存对象操作")
+    public R save(@Validated User user){
+        return R.success(null, "save user success!");
     }
 
 
