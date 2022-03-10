@@ -319,7 +319,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 import javax.annotation.Resource;
 import java.util.*;
-import java.util.stream.Collectors;
 
 /**
  * @program: spring-cloud-exercise
